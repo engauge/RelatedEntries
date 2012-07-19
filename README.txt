@@ -1,8 +1,10 @@
-== Related Entries V 0.1
+Related Entries V 0.1
+=====================
 
 Related Entries is a plugin for ExpressionEngine to automagically generate related entries. Once installed a simple call to the module will retrieve a list of related entries based on their content.
 
-== Installation
+Installation
+============
 
 1. Copy the 'related' folder to you EE installation's 'third_party' folder
 
@@ -16,12 +18,14 @@ Related Entries is a plugin for ExpressionEngine to automagically generate relat
 
 5. Enable the plugin in EE's control panel.
 
-== Usage
+Usage
+=====
 
 {exp:related:entries entry_id="1" field="post" limit="5" }
 	<a href='/path/to/{entry_id}'>{title}</a><br>
 {/exp:related:entries}
 
-== License
+License
+=======
 
 Related Entries is under the GPL v2 license.
